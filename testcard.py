@@ -104,6 +104,7 @@ class GameManager():
         '''
     
     '''
+   
     def blit_text(self,surface, text, pos, font, color=pygame.Color('black')):
         words = [word.split(' ') for word in text.splitlines()]  # 2D array where each row is a list of words.
         space = font.size(' ')[0]  # The width of a space.
