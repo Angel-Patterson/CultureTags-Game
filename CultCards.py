@@ -67,7 +67,8 @@ class Deck(): #This Deck will get the card details from the Culture_Tag.csv, con
         
     def ReadDeck(self):print(self.DeckString)
         
-    def ReadTopCard(self):print(self.Deck[len(self.Deck)-1].GetFrontofCard())
+   
+ def ReadTopCard(self):print(self.Deck[len(self.Deck)-1].GetFrontofCard())
         
     def ReadBottomCard(self): print(self.Deck[0].GetFrontofCard())
         
