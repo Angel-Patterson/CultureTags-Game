@@ -63,7 +63,8 @@ def option2():#Playing the Game
 def option3():#Adding new Cards
      print('Handle option \'Option 3\'')
 
-if __name__=='__main__':
+
+        if __name__=='__main__':
     while(True):
         print_menu()
         option = ''
